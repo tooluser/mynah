@@ -1,12 +1,5 @@
-//
-//  AppDelegate.m
-//  Mynah
-//
-//  Created by Joshua Marker on 10/19/15.
-//  Copyright © 2015 Nowhereville. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +10,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIWindow *window = [[UIWindow alloc] init];
+    window.rootViewController = [[ViewController alloc] init];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
