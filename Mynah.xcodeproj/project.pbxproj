@@ -12,6 +12,8 @@
 		42B6DEE11BD5850F005D1EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEE01BD5850F005D1EA8 /* ViewController.m */; };
 		42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE51BD5850F005D1EA8 /* Assets.xcassets */; };
 		42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE71BD5850F005D1EA8 /* LaunchScreen.storyboard */; };
+		42B6DEF51BD58828005D1EA8 /* ReminderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF41BD58828005D1EA8 /* ReminderItem.m */; settings = {ASSET_TAGS = (); }; };
+		42B6DEF81BD5887F005D1EA8 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF71BD5887F005D1EA8 /* ReminderList.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		42B6DEE51BD5850F005D1EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B6DEE81BD5850F005D1EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42B6DEEA1BD5850F005D1EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B6DEF31BD58828005D1EA8 /* ReminderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderItem.h; path = Model/ReminderItem.h; sourceTree = "<group>"; };
+		42B6DEF41BD58828005D1EA8 /* ReminderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderItem.m; path = Model/ReminderItem.m; sourceTree = "<group>"; };
+		42B6DEF61BD5887F005D1EA8 /* ReminderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderList.h; path = Model/ReminderList.h; sourceTree = "<group>"; };
+		42B6DEF71BD5887F005D1EA8 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderList.m; path = Model/ReminderList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 		42B6DEF21BD5855B005D1EA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42B6DEF31BD58828005D1EA8 /* ReminderItem.h */,
+				42B6DEF41BD58828005D1EA8 /* ReminderItem.m */,
+				42B6DEF61BD5887F005D1EA8 /* ReminderList.h */,
+				42B6DEF71BD5887F005D1EA8 /* ReminderList.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,7 +173,9 @@
 			files = (
 				42B6DEE11BD5850F005D1EA8 /* ViewController.m in Sources */,
 				42B6DEDE1BD5850F005D1EA8 /* AppDelegate.m in Sources */,
+				42B6DEF51BD58828005D1EA8 /* ReminderItem.m in Sources */,
 				42B6DEDB1BD5850F005D1EA8 /* main.m in Sources */,
+				42B6DEF81BD5887F005D1EA8 /* ReminderList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				42B6DEEF1BD5850F005D1EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
