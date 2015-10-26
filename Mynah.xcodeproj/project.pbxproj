@@ -12,8 +12,10 @@
 		42B6DEE11BD5850F005D1EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEE01BD5850F005D1EA8 /* ViewController.m */; };
 		42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE51BD5850F005D1EA8 /* Assets.xcassets */; };
 		42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE71BD5850F005D1EA8 /* LaunchScreen.storyboard */; };
-		42B6DEF51BD58828005D1EA8 /* ReminderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF41BD58828005D1EA8 /* ReminderItem.m */; settings = {ASSET_TAGS = (); }; };
-		42B6DEF81BD5887F005D1EA8 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF71BD5887F005D1EA8 /* ReminderList.m */; settings = {ASSET_TAGS = (); }; };
+		42B6DEF51BD58828005D1EA8 /* ReminderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF41BD58828005D1EA8 /* ReminderItem.m */; };
+		42B6DEF81BD5887F005D1EA8 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEF71BD5887F005D1EA8 /* ReminderList.m */; };
+		42F36A9F1BDEBC1C00224A9E /* ReminderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F36A9D1BDEBC1C00224A9E /* ReminderListViewController.m */; };
+		42F36AA01BDEBC1C00224A9E /* ReminderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F36A9E1BDEBC1C00224A9E /* ReminderListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		42B6DEF41BD58828005D1EA8 /* ReminderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderItem.m; path = Model/ReminderItem.m; sourceTree = "<group>"; };
 		42B6DEF61BD5887F005D1EA8 /* ReminderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderList.h; path = Model/ReminderList.h; sourceTree = "<group>"; };
 		42B6DEF71BD5887F005D1EA8 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderList.m; path = Model/ReminderList.m; sourceTree = "<group>"; };
+		42F36A9C1BDEBC1C00224A9E /* ReminderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderListViewController.h; path = UI/ReminderListViewController.h; sourceTree = "<group>"; };
+		42F36A9D1BDEBC1C00224A9E /* ReminderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderListViewController.m; path = UI/ReminderListViewController.m; sourceTree = "<group>"; };
+		42F36A9E1BDEBC1C00224A9E /* ReminderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReminderListViewController.xib; path = UI/ReminderListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 		42B6DEF11BD58557005D1EA8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				42F36A9C1BDEBC1C00224A9E /* ReminderListViewController.h */,
+				42F36A9D1BDEBC1C00224A9E /* ReminderListViewController.m */,
+				42F36A9E1BDEBC1C00224A9E /* ReminderListViewController.xib */,
 				42B6DEDF1BD5850F005D1EA8 /* ViewController.h */,
 				42B6DEE01BD5850F005D1EA8 /* ViewController.m */,
 			);
@@ -159,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F36AA01BDEBC1C00224A9E /* ReminderListViewController.xib in Resources */,
 				42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */,
 				42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */,
 			);
@@ -175,6 +184,7 @@
 				42B6DEDE1BD5850F005D1EA8 /* AppDelegate.m in Sources */,
 				42B6DEF51BD58828005D1EA8 /* ReminderItem.m in Sources */,
 				42B6DEDB1BD5850F005D1EA8 /* main.m in Sources */,
+				42F36A9F1BDEBC1C00224A9E /* ReminderListViewController.m in Sources */,
 				42B6DEF81BD5887F005D1EA8 /* ReminderList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
