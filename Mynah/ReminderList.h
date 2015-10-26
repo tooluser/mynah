@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@class Reminder
+@class Reminder;
 
 @interface ReminderList : NSObject
 
 @property (nonatomic,readonly,copy)NSArray *allReminders;
 @property (strong, nonatomic, readwrite) NSNumber *frequency;
+@property (strong, nonatomic, readwrite) NSNumber *listName;
 
 
 

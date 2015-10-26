@@ -12,8 +12,8 @@
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {
-    [aCoder encodeObject:self.ReminderName forKey:@"ReminderName"];
-    [aCoder encodeObject:self.ReminderNotice forKey:@"ReminderNotice"];
+    [aCoder encodeObject:self.ReminderName forKey:@"reminderName"];
+    [aCoder encodeObject:self.ReminderNotice forKey:@"reminderNotice"];
 }
 
 @end

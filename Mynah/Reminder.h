@@ -10,15 +10,7 @@
 
 @interface Reminder : NSObject <NSCoding>
 
-{
-    NSString *_ReminderName;
-    NSString *_ReminderNotice;
-}
-
-- (void)setReminderName:(NSString *)str;
-- (NSString *)ReminderName;
-
-- (void)setReminderNotice:(NSString *)str;
-- (NSString *)ReminderNotice;
+@property (strong, nonatomic, readwrite) NSNumber *reminderName;
+@property (strong, nonatomic, readwrite) NSNumber *reminderNotice;
 
 @end
