@@ -14,6 +14,10 @@
 		42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE71BD5850F005D1EA8 /* LaunchScreen.storyboard */; };
 		EF03674D1BD72B3300D95828 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = EF03674C1BD72B3300D95828 /* ReminderList.m */; settings = {ASSET_TAGS = (); }; };
 		EF0367511BD73BD600D95828 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0367501BD73BD600D95828 /* Reminder.m */; settings = {ASSET_TAGS = (); }; };
+		EF6EDFF41BE1490700ED91C0 /* ReminderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6EDFF21BE1490700ED91C0 /* ReminderListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF6EDFF51BE1490700ED91C0 /* ReminderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6EDFF31BE1490700ED91C0 /* ReminderListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		EF6EDFF91BE14A7900ED91C0 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6EDFF71BE14A7900ED91C0 /* ReminderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF6EDFFA1BE14A7900ED91C0 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6EDFF81BE14A7900ED91C0 /* ReminderViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,12 @@
 		EF03674C1BD72B3300D95828 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderList.m; sourceTree = "<group>"; };
 		EF03674F1BD73BD600D95828 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
 		EF0367501BD73BD600D95828 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		EF6EDFF11BE1490700ED91C0 /* ReminderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderListViewController.h; path = UI/ReminderListViewController.h; sourceTree = "<group>"; };
+		EF6EDFF21BE1490700ED91C0 /* ReminderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderListViewController.m; path = UI/ReminderListViewController.m; sourceTree = "<group>"; };
+		EF6EDFF31BE1490700ED91C0 /* ReminderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReminderListViewController.xib; path = UI/ReminderListViewController.xib; sourceTree = "<group>"; };
+		EF6EDFF61BE14A7900ED91C0 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderViewController.h; path = UI/ReminderViewController.h; sourceTree = "<group>"; };
+		EF6EDFF71BE14A7900ED91C0 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderViewController.m; path = UI/ReminderViewController.m; sourceTree = "<group>"; };
+		EF6EDFF81BE14A7900ED91C0 /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReminderViewController.xib; path = UI/ReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,12 @@
 		42B6DEF11BD58557005D1EA8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EF6EDFF11BE1490700ED91C0 /* ReminderListViewController.h */,
+				EF6EDFF21BE1490700ED91C0 /* ReminderListViewController.m */,
+				EF6EDFF31BE1490700ED91C0 /* ReminderListViewController.xib */,
+				EF6EDFF61BE14A7900ED91C0 /* ReminderViewController.h */,
+				EF6EDFF71BE14A7900ED91C0 /* ReminderViewController.m */,
+				EF6EDFF81BE14A7900ED91C0 /* ReminderViewController.xib */,
 				42B6DEDF1BD5850F005D1EA8 /* ViewController.h */,
 				42B6DEE01BD5850F005D1EA8 /* ViewController.m */,
 			);
@@ -159,6 +175,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6EDFFA1BE14A7900ED91C0 /* ReminderViewController.xib in Resources */,
+				EF6EDFF51BE1490700ED91C0 /* ReminderListViewController.xib in Resources */,
 				42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */,
 				42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */,
 			);
@@ -175,6 +193,8 @@
 				42B6DEDE1BD5850F005D1EA8 /* AppDelegate.m in Sources */,
 				42B6DEDB1BD5850F005D1EA8 /* main.m in Sources */,
 				EF0367511BD73BD600D95828 /* Reminder.m in Sources */,
+				EF6EDFF91BE14A7900ED91C0 /* ReminderViewController.m in Sources */,
+				EF6EDFF41BE1490700ED91C0 /* ReminderListViewController.m in Sources */,
 				EF03674D1BD72B3300D95828 /* ReminderList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
