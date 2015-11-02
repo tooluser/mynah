@@ -1,20 +1,14 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "reminderListViewController.h"
-
-@interface AppDelegate ()
-
-@end
+#import "ReminderListViewController.h"
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
     UIWindow *window = [[UIWindow alloc] init];
     window.rootViewController = [[ReminderListViewController alloc] init];
     [window makeKeyAndVisible];
+    self.window = window;
     
     return YES;
 }
