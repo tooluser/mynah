@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		42B6DEDB1BD5850F005D1EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEDA1BD5850F005D1EA8 /* main.m */; };
 		42B6DEDE1BD5850F005D1EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEDD1BD5850F005D1EA8 /* AppDelegate.m */; };
-		42B6DEE11BD5850F005D1EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6DEE01BD5850F005D1EA8 /* ViewController.m */; };
 		42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE51BD5850F005D1EA8 /* Assets.xcassets */; };
 		42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6DEE71BD5850F005D1EA8 /* LaunchScreen.storyboard */; };
 		CE29D1D01BD73E1100CCFF5A /* ReminderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE29D1CF1BD73E1100CCFF5A /* ReminderItem.m */; settings = {ASSET_TAGS = (); }; };
+		CEAD91251BE6645A0067FE19 /* ReminderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD91231BE6645A0067FE19 /* ReminderListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CEAD91261BE6645A0067FE19 /* ReminderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD91241BE6645A0067FE19 /* ReminderListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CEAD912A1BE690FD0067FE19 /* ReminderItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD91281BE690FD0067FE19 /* ReminderItemViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CEAD912B1BE690FD0067FE19 /* ReminderItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD91291BE690FD0067FE19 /* ReminderItemViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		CEB4BEFD1BDE628D00D5B852 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB4BEFC1BDE628D00D5B852 /* ReminderList.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -21,13 +24,17 @@
 		42B6DEDA1BD5850F005D1EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42B6DEDC1BD5850F005D1EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B6DEDD1BD5850F005D1EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42B6DEDF1BD5850F005D1EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UI/ViewController.h; sourceTree = "<group>"; };
-		42B6DEE01BD5850F005D1EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UI/ViewController.m; sourceTree = "<group>"; };
 		42B6DEE51BD5850F005D1EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B6DEE81BD5850F005D1EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42B6DEEA1BD5850F005D1EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE29D1CE1BD73E1100CCFF5A /* ReminderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderItem.h; sourceTree = "<group>"; };
 		CE29D1CF1BD73E1100CCFF5A /* ReminderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderItem.m; sourceTree = "<group>"; };
+		CEAD91221BE6645A0067FE19 /* ReminderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderListViewController.h; path = UI/ReminderListViewController.h; sourceTree = "<group>"; };
+		CEAD91231BE6645A0067FE19 /* ReminderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderListViewController.m; path = UI/ReminderListViewController.m; sourceTree = "<group>"; };
+		CEAD91241BE6645A0067FE19 /* ReminderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReminderListViewController.xib; path = UI/ReminderListViewController.xib; sourceTree = "<group>"; };
+		CEAD91271BE690FD0067FE19 /* ReminderItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderItemViewController.h; path = UI/ReminderItemViewController.h; sourceTree = "<group>"; };
+		CEAD91281BE690FD0067FE19 /* ReminderItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderItemViewController.m; path = UI/ReminderItemViewController.m; sourceTree = "<group>"; };
+		CEAD91291BE690FD0067FE19 /* ReminderItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReminderItemViewController.xib; path = UI/ReminderItemViewController.xib; sourceTree = "<group>"; };
 		CEB4BEFB1BDE628D00D5B852 /* ReminderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderList.h; sourceTree = "<group>"; };
 		CEB4BEFC1BDE628D00D5B852 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +92,12 @@
 		42B6DEF11BD58557005D1EA8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				42B6DEDF1BD5850F005D1EA8 /* ViewController.h */,
-				42B6DEE01BD5850F005D1EA8 /* ViewController.m */,
+				CEAD91271BE690FD0067FE19 /* ReminderItemViewController.h */,
+				CEAD91281BE690FD0067FE19 /* ReminderItemViewController.m */,
+				CEAD91291BE690FD0067FE19 /* ReminderItemViewController.xib */,
+				CEAD91221BE6645A0067FE19 /* ReminderListViewController.h */,
+				CEAD91231BE6645A0067FE19 /* ReminderListViewController.m */,
+				CEAD91241BE6645A0067FE19 /* ReminderListViewController.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -159,8 +170,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD91261BE6645A0067FE19 /* ReminderListViewController.xib in Resources */,
 				42B6DEE91BD5850F005D1EA8 /* LaunchScreen.storyboard in Resources */,
 				42B6DEE61BD5850F005D1EA8 /* Assets.xcassets in Resources */,
+				CEAD912B1BE690FD0067FE19 /* ReminderItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B6DEE11BD5850F005D1EA8 /* ViewController.m in Sources */,
+				CEAD91251BE6645A0067FE19 /* ReminderListViewController.m in Sources */,
+				CEAD912A1BE690FD0067FE19 /* ReminderItemViewController.m in Sources */,
 				42B6DEDE1BD5850F005D1EA8 /* AppDelegate.m in Sources */,
 				42B6DEDB1BD5850F005D1EA8 /* main.m in Sources */,
 				CE29D1D01BD73E1100CCFF5A /* ReminderItem.m in Sources */,

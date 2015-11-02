@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "ReminderListViewController.h"
 
 @interface AppDelegate ()
 
@@ -12,7 +12,7 @@
     // Override point for customization after application launch.
     
     UIWindow *window = [[UIWindow alloc] init];
-    window.rootViewController = [[ViewController alloc] init];
+    window.rootViewController = [[ReminderListViewController alloc] init];
     [window makeKeyAndVisible];
     
     return YES;

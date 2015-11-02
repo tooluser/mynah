@@ -1,10 +1,4 @@
-//
-//  ReminderItem.m
-//  Mynah
-//
-//  Created by James on 10/20/15.
-//  Copyright © 2015 Nowhereville. All rights reserved.
-//
+
 
 #import "ReminderItem.h"
 
@@ -19,7 +13,7 @@
     
 }
 
--(instancetype)initWithCoder:(NSCoder *)coder { // I had aDecoder here, whats the difference and why does aCoder work above
+-(instancetype)initWithCoder:(NSCoder *)coder { 
     self = [super init];
     if (self) {
         self.reminderName = [coder decodeObjectForKey:@"reminderName"];
@@ -30,5 +24,3 @@
 
 @end
 
-
-//I got hung up for a minute on declaring @interface ReminderItem () <NSCoding> in the implementation file vs. @interface ReminderItem : NSObject  in the header file
