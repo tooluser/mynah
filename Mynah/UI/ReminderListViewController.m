@@ -1,32 +1,45 @@
 #import "ReminderListViewController.h"
+#import "ReminderList.h"
 
 @interface ReminderListViewController ()
 
-@property (weak, nonatomic) IBOutlet UISlider *Frequency;
-@property (weak, nonatomic) IBOutlet UITableView *ReminderList;
+@property (weak, nonatomic) IBOutlet UISlider *frequencySlider;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
 @implementation ReminderListViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.reminderList.allReminders.count;
 }
 
-/*
-#pragma mark - Navigation
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+//    return cell;
+    return nil;
+}
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Navigation logic may go here, for example:
+    // Create the next view controller.
+//    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
+    
     // Pass the selected object to the new view controller.
+    
+    // Push the view controller.
+//    [self.navigationController pushViewController:detailViewController animated:YES];
 }
-*/
 
+
+ 
 @end
