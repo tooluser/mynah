@@ -1,14 +1,7 @@
-//
-//  ReminderViewController.m
-//  Mynah
-//
-//  Created by Christoper Laz on 10/28/15.
-//  Copyright © 2015 Nowhereville. All rights reserved.
-//
-
 #import "ReminderViewController.h"
 
 @interface ReminderViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextField *reminderName;
 @property (weak, nonatomic) IBOutlet UITextField *reminderNotice;
 

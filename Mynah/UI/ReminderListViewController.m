@@ -1,14 +1,7 @@
-//
-//  ReminderListViewController.m
-//  Mynah
-//
-//  Created by Christoper Laz on 10/28/15.
-//  Copyright © 2015 Nowhereville. All rights reserved.
-//
-
 #import "ReminderListViewController.h"
 
 @interface ReminderListViewController ()
+
 @property (weak, nonatomic) IBOutlet UISlider *Frequency;
 @property (weak, nonatomic) IBOutlet UITableView *ReminderList;
 
