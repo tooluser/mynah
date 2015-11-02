@@ -16,7 +16,4 @@
 @property (strong, nonatomic, readwrite) NSNumber *frequency;
 @property (strong, nonatomic, readwrite) NSNumber *listName;
 
-
-
-
 @end
